@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="501.0" prefWidth="725.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="copypasteproject.FXMLDocumentController">
+    <children>
+      <TableView fx:id="table" layoutX="19.0" layoutY="137.0" prefHeight="309.0" prefWidth="687.0">
+        <columns>
+          <TableColumn fx:id="firstNameCol" prefWidth="351.0" text="Pasted text" />
+            <TableColumn fx:id="lastNameCol" prefWidth="334.0" text="Filtred text" />
+        </columns>
+      </TableView>
+      <Pane layoutY="2.0" prefHeight="51.0" prefWidth="725.0" style="-fx-background-color: #228B22;">
+         <children>
+            <Label layoutX="17.0" layoutY="8.0" text="TableView with Search Filter" textFill="WHITE">
+               <font>
+                  <Font name="Comic Sans MS Bold Italic" size="25.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutY="53.0" prefHeight="5.0" prefWidth="725.0" style="-fx-background-color: #ECF142;" />
+      <Pane layoutX="-1.0" layoutY="58.0" prefHeight="77.0" prefWidth="725.0">
+         <children>
+            <Label layoutX="20.0" layoutY="29.0" text="Search Box">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="btCopy" layoutX="563.0" layoutY="27.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="65.0" text="Copy" />
+            <Button fx:id="btPaste" layoutX="640.0" layoutY="27.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="65.0" text="Paste" />
+            <TextField fx:id="filterField" layoutX="106.0" layoutY="27.0" prefHeight="25.0" prefWidth="448.0" />
+         </children>
+      </Pane>
+      <Label layoutX="19.0" layoutY="461.0" text="Select cells and press CTRL+C. Paste the data into Excel or Notepad" />
+    </children>
+</AnchorPane>

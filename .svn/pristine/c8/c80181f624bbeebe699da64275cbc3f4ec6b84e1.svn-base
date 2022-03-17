@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\Users\IT-0\Desktop\NetBeans\CopyPasteProject\dist\CopyPasteProject.jar</jar>
+  <outfile>C:\Users\IT-0\Desktop\NetBeans\CopyPasteProject\cpf.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon>C:\Users\IT-0\Desktop\NetBeans\CopyPasteProject\image.ico</icon>
+  <jre>
+    <path></path>
+    <bundledJre64Bit>false</bundledJre64Bit>
+    <bundledJreAsFallback>false</bundledJreAsFallback>
+    <minVersion>1.8.0</minVersion>
+    <maxVersion>1.9.0</maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+    <runtimeBits>64/32</runtimeBits>
+  </jre>
+  <versionInfo>
+    <fileVersion>1.0.0.1</fileVersion>
+    <txtFileVersion>1.0.0.1</txtFileVersion>
+    <fileDescription>CopyPasteFilter</fileDescription>
+    <copyright>Rusanovschi Cristian</copyright>
+    <productVersion>1.0.0.1</productVersion>
+    <txtProductVersion>1.0.0.1</txtProductVersion>
+    <productName>cpf</productName>
+    <companyName>Rusanovschi Cristian</companyName>
+    <internalName>cpf</internalName>
+    <originalFilename>cpf.exe</originalFilename>
+    <trademarks></trademarks>
+    <language>ENGLISH_US</language>
+  </versionInfo>
+</launch4jConfig>
